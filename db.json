@@ -1,0 +1,24 @@
+{
+  "provinces" : [
+    {
+      "id": 1,
+      "name": "Ha Noi"
+    },
+    {
+      "id": 2,
+      "name": "Ho Chi Minh City"
+    },
+    {
+      "id": 3,
+      "name": "Da Nang"
+    },
+    {
+      "id": 4,
+      "name": "Can Tho"
+    },
+    {
+      "id": 5,
+      "name": "Hai Phong"
+    }
+  ]
+}
