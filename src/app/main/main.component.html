@@ -1,0 +1,11 @@
+<be-header 
+  [language]="(language$ | async)" 
+  [languages]="languages"
+  (changeLanguage)="onChangeLanguage($event)"
+></be-header>
+
+<be-sidebar (collapsedEvent)="receiveCollapsed($event)"></be-sidebar>
+
+<main class="main-container" [ngClass]="{collapsed: collapedSideBar}">
+  <router-outlet></router-outlet>
+</main>

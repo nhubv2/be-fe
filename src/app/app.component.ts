@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'be-root',
   template: `<router-outlet></router-outlet>`
 })
-export class AppComponent {
-  title = 'be-fe';
-}
+export class AppComponent { }

@@ -6,11 +6,13 @@ import { AuthLoginComponent, AuthRegsiterComponent } from './containers';
 const routes: Routes = [
   {
     path: 'register',
-    component: AuthRegsiterComponent
+    component: AuthRegsiterComponent,
+    data: { title: 'Register' }
   },
   {
     path: 'login',
-    component: AuthLoginComponent
+    component: AuthLoginComponent,
+    data: { title: 'Login' }
   }
 ];
 

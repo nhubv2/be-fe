@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  appName: 'be',
+  appPrefix: 'BE_',
+  i18nPrefix: ''
 };

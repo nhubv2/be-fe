@@ -1,6 +1,6 @@
 import { ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
 import { RouterStateSerializer } from '@ngrx/router-store';
-import { RouterStateUrl } from './router';
+import { RouterStateUrl } from './store/router';
 
 export class AppRouterStateSerializer
   implements RouterStateSerializer<RouterStateUrl> {

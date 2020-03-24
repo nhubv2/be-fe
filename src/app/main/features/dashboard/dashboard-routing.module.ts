@@ -6,7 +6,8 @@ import { DashboardMainComponent } from './containers';
 const routes: Routes = [
   {
     path: '',
-    component: DashboardMainComponent
+    component: DashboardMainComponent,
+    data: { title: 'Dashboard' }
   }
 ];
 
