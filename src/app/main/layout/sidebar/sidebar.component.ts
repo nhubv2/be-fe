@@ -29,7 +29,7 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
     this.isActive = false;
-    this.collapsed = true;
+    this.collapsed = false;
     this.showMenu = '';
     this.pushRightClass = 'push-right';
   }

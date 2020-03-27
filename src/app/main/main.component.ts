@@ -16,7 +16,7 @@ import {
 export class MainComponent implements OnInit {
   public pushRightClass: string;
 
-  collapedSideBar: boolean = true;
+  collapedSideBar: boolean = false;
   language$: Observable<string>;
   languages = ['en', 'vi'];
 
